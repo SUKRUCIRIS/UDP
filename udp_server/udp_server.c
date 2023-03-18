@@ -9,7 +9,6 @@ struct sockaddr_in server;
 char* messagebuffer = 0;
 unsigned int mbuffersize = 0;
 WSADATA wsa;
-char adresstext[100] = { 0 };
 
 #pragma comment(lib,"ws2_32.lib")
 
